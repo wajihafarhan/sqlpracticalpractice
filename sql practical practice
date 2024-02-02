@@ -1,0 +1,63 @@
+
+
+a. Create a new database named "EmployeeManagement".
+b. Create a table named "Employees" with the following columns:
+
+EmployeeID 
+FirstName 
+LastName 
+DepartmentID 
+Salary 
+
+create a table Department with column DeptID, dept_name
+
+c. Add a foreign key constraint on the "DepartmentID" column referencing a table named "Departments" with a column "DeptID".
+
+
+
+
+a. Insert 15 records into the "Employees" table.
+b. Update the salary of all employees in the "Sales" department to increase by 10%.
+c. Delete the record of the employee with the lowest salary.
+
+
+
+
+a. Create a SQL Server login named "HR_Manager" with password "password".
+a. Create a new user named "HR_Manager" with password "StrongPassword".
+b. Grant SELECT permission on the "Employees" table to the user "HR_Manager".
+c. Revoke INSERT permission on the "Employees" table from the user "HR_Manager".
+
+
+
+a. create a trigger named 'employeeTrigger' on the current database for all DML Operations and store the information of the triggers 
+in the separate table.
+
+
+a. Retrieve all employees whose last name starts with "S".
+b. Retrieve all employees whose first name contains the substring "an".
+c. Retrieve all employees whose last name ends with "son".
+
+
+
+
+a. Create a table named "Students" with the following columns:
+
+StudentID
+FirstName
+LastName 
+Age 
+percentage
+b. Add a table named "Courses" with the following columns:
+CourseID
+CourseName 
+Instructor 
+
+
+a. Insert 5 records into the "Students" table.
+b. Insert at least 3 records into the "Courses" table.
+c. Enroll one student in at least two courses.
+
+a. Retrieve the first name and last name of the student who has the highest GPA.
+b. Retrieve the course name along with the number of enrolled students in each course.
+c. Retrieve the average GPA of students enrolled in the "Computer Science" course.
